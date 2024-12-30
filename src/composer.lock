@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d758dfa362448c245be9eace45680e7",
+    "content-hash": "f9022f32a60b15e9f6eedb4ffbc4ec71",
     "packages": [
         {
             "name": "brick/math",
@@ -1942,16 +1942,16 @@
         },
         {
             "name": "linecorp/line-bot-sdk",
-            "version": "9.12.0",
+            "version": "v10.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/line/line-bot-sdk-php.git",
-                "reference": "eebb640ef5eb7dab5cc8bb64f9c844f0ab1621e9"
+                "reference": "9b453a6d32b458a1b4a18bb1d2e6feb64e38cdd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/eebb640ef5eb7dab5cc8bb64f9c844f0ab1621e9",
-                "reference": "eebb640ef5eb7dab5cc8bb64f9c844f0ab1621e9",
+                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/9b453a6d32b458a1b4a18bb1d2e6feb64e38cdd4",
+                "reference": "9b453a6d32b458a1b4a18bb1d2e6feb64e38cdd4",
                 "shasum": ""
             },
             "require": {
@@ -1964,25 +1964,25 @@
                 "guzzlehttp/psr7": "^1.7 || ^2.0",
                 "orchestra/testbench": "*",
                 "phpmd/phpmd": "2.15.0",
-                "phpstan/phpstan": "^1.10",
+                "phpstan/phpstan": "^2.0",
                 "phpunit/phpunit": "^10.2",
-                "squizlabs/php_codesniffer": "3.10.3"
+                "squizlabs/php_codesniffer": "3.11.2"
             },
             "type": "library",
             "extra": {
                 "laravel": {
+                    "aliases": {
+                        "LINELiffApi": "LINE\\Laravel\\Facades\\LINELiffApi",
+                        "LINEInsightApi": "LINE\\Laravel\\Facades\\LINEInsightApi",
+                        "LINEMessagingApi": "LINE\\Laravel\\Facades\\LINEMessagingApi",
+                        "LINEMessagingBlobApi": "LINE\\Laravel\\Facades\\LINEMessagingBlobApi",
+                        "LINEManageAudienceApi": "LINE\\Laravel\\Facades\\LINEManageAudienceApi",
+                        "LINEChannelAccessTokenApi": "LINE\\Laravel\\Facades\\LINEChannelAccessTokenApi",
+                        "LINEManageAudienceBlobApi": "LINE\\Laravel\\Facades\\LINEManageAudienceBlobApi"
+                    },
                     "providers": [
                         "LINE\\Laravel\\LINEBotServiceProvider"
-                    ],
-                    "aliases": {
-                        "LINEChannelAccessTokenApi": "LINE\\Laravel\\Facades\\LINEChannelAccessTokenApi",
-                        "LINEInsightApi": "LINE\\Laravel\\Facades\\LINEInsightApi",
-                        "LINELiffApi": "LINE\\Laravel\\Facades\\LINELiffApi",
-                        "LINEManageAudienceApi": "LINE\\Laravel\\Facades\\LINEManageAudienceApi",
-                        "LINEManageAudienceBlobApi": "LINE\\Laravel\\Facades\\LINEManageAudienceBlobApi",
-                        "LINEMessagingApi": "LINE\\Laravel\\Facades\\LINEMessagingApi",
-                        "LINEMessagingBlobApi": "LINE\\Laravel\\Facades\\LINEMessagingBlobApi"
-                    }
+                    ]
                 }
             },
             "autoload": {
@@ -2033,9 +2033,9 @@
             ],
             "support": {
                 "issues": "https://github.com/line/line-bot-sdk-php/issues",
-                "source": "https://github.com/line/line-bot-sdk-php/tree/9.12.0"
+                "source": "https://github.com/line/line-bot-sdk-php/tree/v10.0.0"
             },
-            "time": "2024-11-07T08:44:14+00:00"
+            "time": "2024-12-26T02:00:59+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -3507,12 +3507,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
