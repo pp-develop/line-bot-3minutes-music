@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.2.0",
         "guzzlehttp/guzzle": "7.9.2",
-        "jwilsson/spotify-web-api-php": "6.1.1",
+        "jwilsson/spotify-web-api-php": "6.2.0",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
