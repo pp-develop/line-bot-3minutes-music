@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca221b2a144fa05162c03932e5aec9b8",
+    "content-hash": "65ac444f5684471c3f795918af1f6983",
     "packages": [
         {
             "name": "brick/math",
@@ -1056,16 +1056,16 @@
         },
         {
             "name": "jwilsson/spotify-web-api-php",
-            "version": "6.1.1",
+            "version": "6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jwilsson/spotify-web-api-php.git",
-                "reference": "3cfb222b74233a653c6774f244e008b3e99cf4c5"
+                "reference": "39c4a7888b217eb097bbc6f42ebb1b0a406261b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jwilsson/spotify-web-api-php/zipball/3cfb222b74233a653c6774f244e008b3e99cf4c5",
-                "reference": "3cfb222b74233a653c6774f244e008b3e99cf4c5",
+                "url": "https://api.github.com/repos/jwilsson/spotify-web-api-php/zipball/39c4a7888b217eb097bbc6f42ebb1b0a406261b1",
+                "reference": "39c4a7888b217eb097bbc6f42ebb1b0a406261b1",
                 "shasum": ""
             },
             "require": {
@@ -1101,9 +1101,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jwilsson/spotify-web-api-php/issues",
-                "source": "https://github.com/jwilsson/spotify-web-api-php/tree/6.1.1"
+                "source": "https://github.com/jwilsson/spotify-web-api-php/tree/6.3.0"
             },
-            "time": "2024-10-09T19:01:23+00:00"
+            "time": "2025-10-12T07:04:38+00:00"
         },
         {
             "name": "laravel/framework",
@@ -9552,12 +9552,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2.0"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
